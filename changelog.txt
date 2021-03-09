@@ -1,0 +1,4 @@
+2021/2/25, V1.0.7
+I fixed i,v loops with a custom script, i need to add a break function to it.
+2021/3/9 V1.0.8
+I added a create file function(This can create any file for example a .txt, or a .exe)
