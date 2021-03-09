@@ -71,3 +71,6 @@ CreateFile = create a file, use:
   CreateFile("test.txt") //create a .txt file
   CreateFile("test.exe") //create a .exe file
 CreateFile Works with all file types!
+
+br = skip a line, use:
+  br()

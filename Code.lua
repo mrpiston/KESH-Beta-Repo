@@ -1,5 +1,6 @@
 --Hello World Project
 output("1 = sign up | 2 = login") --prints out options
+
 op = input("Enter an option: ") --enter option
 if op == "1" then --Check option
 x = input("Enter a name: ") --Name

@@ -4,3 +4,4 @@
 ]]
 require "codelibrary.Engine" --This loads the external language
 require "Code" --Loads your project
+--After this you can add more code files by doing require "FileName" with no extension!

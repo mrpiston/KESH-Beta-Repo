@@ -21,6 +21,10 @@ end
 end
 end
 
+function br()
+print("\n")
+end
+
 function randNumb(val1, val2)
 return math.random(val1, val2)
 end
