@@ -3,7 +3,7 @@ Write the code in Code.lua!
 KESH is based on lua and is written in lua i just wanted to make it simpler to understand, Also added a bunch of more features, so basically a module add on. Enjoy!
 
 //KESH Documentation\\
-output = basic print, use: output("Hellow World!")
+output = basic print, use: output("Hello World!")
 warn = prints in a red font, use: warn("Hello World")
 randNumb([val1], [val2]) generate a random number from val1 to val2, use randNumb(1, 99)
 input allows the user to interact with the program input([STRING]), use:
@@ -24,6 +24,7 @@ b64Encode = encode a message using the popular encoding alogrythm called base64,
 b64Decode = decode a message encrypted with base64
 msg = b64Encode("Hello World")
 output(b64Decode(msg))
+
 hexEncode = encode with hex, use:
 x=hexEncode("Hello World!")
 hexDecode = decode a message encoded with hex, use:
@@ -74,3 +75,9 @@ CreateFile Works with all file types!
 
 br = skip a line, use:
   br()
+
+Functions: 
+local function [Function Name]([Here you can pu variables that will be pharsed])
+--Code here
+end
+[Function Name]([Variable])
